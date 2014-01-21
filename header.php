@@ -9,4 +9,4 @@
 </head>
 <body>
 <?php include 'navigation.php'; ?>
-<?php include 'includes/connected.php'; ?>
+<?php require 'includes/database.php'; ?>

@@ -40,23 +40,7 @@
 						<input type="text" list="courses">
 					</div>
 						<datalist id="courses">
-								<option>Basic Safety Courses</option>
-								<option>Proficiency in Personal Survival Techiniques</option>
-								<option>Fire Prevention and Fire Fighting</option>
-								<option>Elementary First Aid</option>
-								<option>Personal Safety and Social Responsabilities</option>
-								<option>Proficiency in Survival Craft and Rescue Boats</option>
-								<option>Proficiency in Fast Rescue Boats</option>
-								<option>Medical Care</option>
-								<option>Advanced Training in Fire Fighting</option>
-								<option>Gereal Operator for Global Maritime Distress and Safety System (GMDSS)</option>
-								<option>Automatic Radar Plotting Aids (ARPA)</option>
-								<option>Radar Observation and Plotting</option>
-								<option>Bridge Team Management</option>
-								<option>Operational Use of Electronic Chart Display and Informationa System (ECDIS)</option>
-								<option>Officer in Charge of a Navigational Watch</option>
-								<option>Ratings forming Part of a Navigational Watch</option>
-								<option>Ordinary Seaman</option>
+							<?php echo courses(); ?>
 						</datalist>
 					<div class="large-4 columns">
 						<a href="#0" class="add-button">Add Course <span>+</span></a>
