@@ -11,7 +11,6 @@ jQuery(document).ready(function($){
 		$main.load('add-instructor.php section');
 		$('.current-menu-item').removeClass('current-menu-item');
 		$this.addClass('current-menu-item');
-
 	});
 
 	$search.on('click', function(event){

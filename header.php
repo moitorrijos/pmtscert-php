@@ -8,4 +8,5 @@
 
 </head>
 <body>
-<?php include 'navigation.php' ?>
+<?php include 'navigation.php'; ?>
+<?php include 'includes/connected.php'; ?>
